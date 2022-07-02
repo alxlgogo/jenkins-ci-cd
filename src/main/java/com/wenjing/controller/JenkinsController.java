@@ -12,6 +12,6 @@ public class JenkinsController {
 
     @RequestMapping("trigger1")
     public String trigger1(){
-        return "Jenkins is triggered be github";
+        return "Jenkins is triggered be github!";
     }
 }
