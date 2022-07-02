@@ -9,4 +9,9 @@ public class JenkinsController {
     public String hello(){
         return  "Hello Jenkins!";
     }
+
+    @RequestMapping("trigger1")
+    public String trigger1(){
+        return "Jenkins is triggered be github";
+    }
 }
